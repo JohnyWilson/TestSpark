@@ -12,6 +12,7 @@ object WordCount {
                           .reduceByKey(_+_)
                           .map{ case(a,b) => (b,a)}
                           .sortByKey(ascending = false)
+                          .take(10)
     WordsCounted.foreach(println)
   }
 }
