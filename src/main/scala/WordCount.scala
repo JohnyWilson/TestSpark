@@ -1,4 +1,4 @@
-/**   * Created by urlama1 on 12/7/2015.    */
+
 
 import org.apache.spark.{SparkConf, SparkContext}
 object WordCount {
